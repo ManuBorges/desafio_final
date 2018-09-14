@@ -1,0 +1,206 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+@font-face {
+    font-family: fonts;
+    src: url('KorolevHeavy.otf');
+}
+.menu{	
+	width: 328px;
+	position: fixed;
+	top: 345px;
+	left: 55px;
+}
+.menu a {
+	background-color: none;
+    color: #006C1C; 
+    display: block;
+    padding: 12px; 
+    text-decoration: none; 
+    font-family: korolevBold;
+}
+.img_logo{
+	width: 320px;
+	height: 237px;
+	position: fixed;
+	top: 80px;
+}
+.topo {
+	position: relative;
+	margin: 1px;
+}
+.sobre{
+
+}
+.atividades{
+
+}
+.impacto{
+
+}
+.parceiros{
+
+}
+.contato1{
+
+}
+.img_fundo{
+	width: 1920px;
+	height: 1080px;
+}
+.introdução{
+	width: 763px;
+	height: 304px;
+}
+.imagens{
+	width: 440.07px;
+	height: 330.05px;
+	display: flex;
+	align-items: flex-start;
+}
+.img_1{
+	width: 440.07px;
+	height: 330.05px;
+}
+.img_2{
+	width: 439px;
+	height: 329px;
+}
+.img_3{
+	width: 439px;
+	height: 329px;
+}
+.atividades{
+
+}
+.img_alfabetização{
+	width: 116.78px;
+	height: 93.42px;
+}
+.text_alfabetização{
+	width: 173.54px;
+	height: 43.49px;
+}
+.img_reforço{
+	width: 116.79px;
+	height: 122px;
+}
+.text_reforço{
+	width: 198.56px;
+	height: 43.59px;
+}
+.img_ingles{
+	width:113.52px;
+	height: 113.52px;
+}
+.text_inglês{
+	width: 198.56px;
+	height: 43.59px;
+}
+.img_palestras{
+	width: 161.33px;
+	height: 152.89px;
+}
+.text_palestras{
+	width: 125.92px;
+	height: 43.59px;
+}
+
+.img_artesanato {
+	width: 137px;
+	height: 114px;
+}
+.text_artesanato{
+	width: 145.29px;
+	height: 43.59px;
+}
+.img_teatro{
+	width: 125.16px;
+	height: 93.79px;
+}
+.text_teatro{
+	width: 85.56px;
+	height: 43.59px;
+}
+.img_dança{
+	width: 119.47px;
+	height: 122.01px;	
+}
+.text_dança{	
+	width: 85.56px;
+	height: 43.59px;
+}
+.img_capoeira{
+	width: 142.76px;
+	height: 137.25px;
+}
+.text_capoeira{
+
+}
+.impacto_color{
+	background-color: #006C1C;
+	width: 900px;
+	height:346px;
+	display: flex;
+	justify-content: flex-end;
+}
+.text_impacto{
+
+}
+.img_impacto{
+	width: 421.68px;
+	height: 366.26px;
+}
+.Parceiros{
+
+}
+.img_sesc{
+	width: 179px;
+	height: 179px;
+}
+.img_negra{
+	width: 133px;
+	height: 133px;
+}
+.img_radio{
+	width: 158px;
+	height: 158px;
+}
+.img_itarare{
+	width: 82px;
+	height: 82px;
+}
+.img_samba{
+	width: 222px;
+	height: 222px;
+}
+.img_hashi{
+	width: 97px;
+	height: 97px;
+}
+.Tel{
+
+}
+.numero_tel{
+
+}
+.Endereço{
+
+}
+.anexo{
+
+}
+.email{
+
+}
+.end_email{
+
+}
+.contato_final{
+	height: 546px;
+	width: 1400px;
+	background: #00C733;
+	display: flex;
+	align-items: 
+	}
