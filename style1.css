@@ -3,14 +3,14 @@
 	margin: 0;
 }
 @font-face {
-    font-family: fonts;
-    src: url('KorolevHeavy.otf');
+    font-family: Korolev;
+   	src: url(KorolevHeavy.woff);
 }
 .menu{	
-	width: 328px;
+	width: 228px;
 	position: fixed;
-	top: 345px;
-	left: 55px;
+	top: 270px;
+	left: 35px;
 }
 .menu a {
 	background-color: none;
@@ -21,8 +21,8 @@
     font-family: korolevBold;
 }
 .img_logo{
-	width: 320px;
-	height: 237px;
+	width: 250px;
+	height: 167px;
 	position: fixed;
 	top: 80px;
 }
@@ -30,177 +30,288 @@
 	position: relative;
 	margin: 1px;
 }
-.sobre{
-
-}
-.atividades{
-
-}
-.impacto{
-
-}
-.parceiros{
-
-}
-.contato1{
-
-}
 .img_fundo{
-	width: 1920px;
-	height: 1080px;
+	width: 1283px;
+	height: 650px;
+	margin-top: -10px;
 }
 .introdução{
-	width: 763px;
-	height: 304px;
-}
-.imagens{
-	width: 440.07px;
-	height: 330.05px;
-	display: flex;
-	align-items: flex-start;
+	width: 553px;
+	height: 404px;
+	font-size: 23px;
+   	font-weight: bold;
+   	position: relative;
+   	top: -350px;
+   	left: 280px;
 }
 .img_1{
-	width: 440.07px;
-	height: 330.05px;
+	width: 295px;
+	height: 200px;
+	border-radius: 25px;
+	position: relative;
+	top: -520px;
+	left: 280px;
 }
 .img_2{
-	width: 439px;
-	height: 329px;
+	width: 295px;
+	height: 200px;
+	border-radius: 25px;
+	position: relative;
+	top: -520px;
+	left: 330px;
 }
 .img_3{
-	width: 439px;
-	height: 329px;
+	width: 295px;
+	height: 200px;
+	border-radius: 25px;
+	position: relative;
+	top: -520px;
+	left: 380px;	
 }
-.atividades{
-
+.titulo1{ 
+	font-size: 44px;
+	position: relative;
+	top: -420px;
+	left: 280px;
 }
 .img_alfabetização{
-	width: 116.78px;
-	height: 93.42px;
+	width: 100px;
+	height: 92px;
+	position: relative;
+	top: -360px;
+	left: 325px;
 }
 .text_alfabetização{
 	width: 173.54px;
 	height: 43.49px;
+	position: relative;
+	top: -360px;
+	left: 325px;
 }
 .img_reforço{
-	width: 116.79px;
-	height: 122px;
+	width: 100px;
+	height: 92px;
+	position: relative;
+	top: -505px;
+	left: 585px;
 }
 .text_reforço{
 	width: 198.56px;
-	height: 43.59px;
+	height: 50px;
+	position: relative;
+	top: -500px;
+	left: 585px;
 }
 .img_ingles{
-	width:113.52px;
-	height: 113.52px;
+	width: 100px;
+	height: 92px;
+	position: relative;
+	top: -640px;
+	left: 830px;
 }
 .text_inglês{
 	width: 198.56px;
-	height: 43.59px;
+	height: 50px;
+	position: relative;
+	top: -643px;
+	left: 830px;
 }
 .img_palestras{
-	width: 161.33px;
-	height: 152.89px;
+	width: 100px;
+	height: 122px;
+	position: relative;
+	top: -820px;
+	left: 1080px;
 }
 .text_palestras{
 	width: 125.92px;
 	height: 43.59px;
+	position: relative;
+	top: -820px;
+	left: 1080px;
 }
-
 .img_artesanato {
-	width: 137px;
-	height: 114px;
+	width: 120px;
+	height: 112px;
+	position: relative;
+	top: -770px;
+	left: 320px;
 }
 .text_artesanato{
 	width: 145.29px;
 	height: 43.59px;
+	position: relative;
+	top: -785px;
+	left: 328px;
 }
 .img_teatro{
-	width: 125.16px;
-	height: 93.79px;
+	width: 100px;
+	height: 92px;
+	position: relative;
+	top: -925px;
+	left: 598px;
 }
 .text_teatro{
 	width: 85.56px;
 	height: 43.59px;
+	position: relative;
+	top: -925px;
+	left: 625px;
 }
 .img_dança{
-	width: 119.47px;
-	height: 122.01px;	
+	width: 100px;
+	height: 92px;	
+	position: relative;
+	top: -1065px;
+	left: 835px;
 }
 .text_dança{	
 	width: 85.56px;
 	height: 43.59px;
+	position: relative;
+	top: -1065px;
+	left: 865px;
 }
 .img_capoeira{
-	width: 142.76px;
-	height: 137.25px;
+	width: 100px;
+	height: 92px;
+	position: relative;
+	top: -1207px;
+	left: 1060px;
 }
 .text_capoeira{
-
+	width: 85.56px;
+	height: 43.59px;
+	position: relative;
+	top: -1207px;
+	left: 1080px;
 }
 .impacto_color{
 	background-color: #006C1C;
-	width: 900px;
-	height:346px;
-	display: flex;
-	justify-content: flex-end;
+	width: 998px;
+	height:315px;
+	position: relative;
+	top: -1100px;
+	left: 286px;
 }
-.text_impacto{
-
+.titulo2{
+	color: #FFFF00;
+	font-size: 44px;
+	position: relative;
+	top: -1362px;
+	left: 340px;
 }
 .img_impacto{
-	width: 421.68px;
-	height: 366.26px;
+	width: 395px;
+	height: 300px;
+	border-radius: 25px;
+	border: 20px solid #FFFFFF;
+	position: relative;	
+	top: -1660px;
+	left: 790px;
 }
-.Parceiros{
-
+.text_impacto{
+	color: #FFFFFF;
+	font-size: 18px;
+	width: 250px;
+	height: 263px;
+	position: relative;	
+	top: -1320px;
+	left: 345px;
+}
+.titulo3{
+	position: relative;
+	top: -1600px;
+	left: 290px;
+}
+.p_container1{
+	display: flex;
+	justify-content: space-around;
+	width: 500px;
+	position: relative;
+	top: -1520px;
+	left: 300px;
+}
+.p_container2{
+	display: flex;
+	justify-content: space-around;
+	width: 500px;
+	position: relative;
+	top: -1500px;
+	left: 300px;
 }
 .img_sesc{
-	width: 179px;
-	height: 179px;
+	width: 139px;
+	height: 139px;
 }
 .img_negra{
-	width: 133px;
-	height: 133px;
+	width: 93px;
+	height: 93px;
 }
 .img_radio{
-	width: 158px;
-	height: 158px;
+	width: 118px;
+	height: 118px;
 }
 .img_itarare{
-	width: 82px;
-	height: 82px;
+	width: 92px;
+	height: 92px;
+}
+.text_itarare{
+	width: 92px;
+	height: 92px;
+	position: relative;
+	top: 105px;
+	left: -110px;
+	font-size: 10px;	
+	font-weight: bold;
 }
 .img_samba{
-	width: 222px;
-	height: 222px;
+	width: 180px;
+	height: 180px;
 }
 .img_hashi{
-	width: 97px;
-	height: 97px;
+	width: 57px;
+	height: 57px;
 }
-.Tel{
-
+.c_conteiner{
+	background-color: #00C733;
+	width: 998px;
+	height:515px;
+	position: relative;
+	top:-1420px;
+	left: 286px;
+}
+.img_contato{
+	width: 395px;
+	height: 300px;
+	border-radius: 25px;
+	border: 20px solid #FFFFFF;
+	position: relative;
+	top: 80px;
+	left:500px;
+}
+.titulo4{
+	color:#FFFF00;
+	font-size: 44px;
+	position: relative;
+	top: -270px;
+	left:70px;
 }
 .numero_tel{
-
+	position: relative;
+	top:-215px;
+	left: 68px;
+	color: #FFFFFF;
 }
 .Endereço{
-
-}
-.anexo{
-
-}
-.email{
-
+	color: #FFFFFF;
+	position: relative;
+	top: -85px;
+	left: 68px;
 }
 .end_email{
-
+	color: #FFFFFF;
+	position: relative;
+	top: -220px;
+	left: 68px;
 }
-.contato_final{
-	height: 546px;
-	width: 1400px;
-	background: #00C733;
-	display: flex;
-	align-items: 
-	}
